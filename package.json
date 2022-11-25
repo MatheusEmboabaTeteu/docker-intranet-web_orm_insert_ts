@@ -1,5 +1,5 @@
 {
-  "name": "Inserção com typeORM",
+  "name": "docker-intranet-web_orm_insert_ts",
    "version": "0.0.1",
    "description": "Inserção básica com TypeORM.",
    "type": "commonjs",
@@ -8,16 +8,25 @@
       "@types/node": "^16.11.10",
       "typescript": "4.5.2"
    },
-  "scripts": {
+   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node src/app.ts",
+    "start": "nodemon src/app.ts",
     "typeorm": "typeorm-ts-node-commonjs"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatheusEmboabaTeteu/docker-intranet-web_orm_insert_ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MatheusEmboabaTeteu/docker-intranet-web_orm_insert_ts/issues"
+  },
+  "homepage": "https://github.com/MatheusEmboabaTeteu/docker-intranet-web_orm_insert_ts#readme",
   "author": "Matheus Emboaba Mello de Souza",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.8",
     "express": "^4.18.1",
+    "nodemon": "^2.0.20",
     "mysql": "^2.14.1",
     "reflect-metadata": "^0.1.13",
     "typeorm": "^0.3.10"

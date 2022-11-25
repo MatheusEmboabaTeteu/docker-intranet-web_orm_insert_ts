@@ -7,5 +7,5 @@
 You need to create the docker container, to start the web application, so:
 
 ```console
-docker-compose up
+npm i && docker-compose up
 ```
